@@ -7,7 +7,7 @@ module.exports = {
     filename: "namegenerator.bundle.js",
     library: {
       type: "umd",
-      name: "essai",
+      name: "usernameGenerator",
     },
     globalObject: "this",
   },

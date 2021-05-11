@@ -1,11 +1,11 @@
 {
   "name": "mw-username-generator",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "A simple username generator",
   "main": "./dist/namegenerator.bundle.js",
   "scripts": {
     "test": "node test.js",
-    "start": "node .\\namegenerator.js",
+    "start": "node namegenerator.js",
     "build": "webpack"
 
   },

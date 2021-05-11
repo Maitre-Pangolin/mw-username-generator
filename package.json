@@ -2,7 +2,7 @@
   "name": "mw-username-generator",
   "version": "1.0.2",
   "description": "A simple username generator",
-  "main": "./namegenerator.js",
+  "main": "./dist/namegenerator.bundle.js",
   "scripts": {
     "test": "node test.js",
     "start": "node .\\namegenerator.js",

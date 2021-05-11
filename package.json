@@ -1,13 +1,12 @@
 {
   "name": "mw-username-generator",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A simple username generator",
   "main": "./dist/namegenerator.bundle.js",
   "scripts": {
     "test": "node test.js",
     "start": "node namegenerator.js",
     "build": "webpack"
-
   },
   "repository": {
     "type": "git",
@@ -26,5 +25,8 @@
   "devDependencies": {
     "webpack": "^5.37.0",
     "webpack-cli": "^4.7.0"
+  },
+  "bin": {
+    "rand-username": "./cli.js"
   }
 }

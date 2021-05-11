@@ -11,7 +11,7 @@ Username are created from a random adjective and noun
 >DoubtfulPomegranate <br>
 >ConcernedKiosk <br>
 >SuccessfulShout <br>
->TastyWit
+>TastyWit <br>
 
 
 ## Installation
@@ -42,6 +42,14 @@ You can install and use directly from your working directory or through the foll
 ```
 
 Access through CDN or local link will create a  `usernameGenerator` function accesible in your script.
+
+## Usage - CLI
+
+On your favorite CLI :
+
+```
+rand-username
+```
 
 ## Build
 

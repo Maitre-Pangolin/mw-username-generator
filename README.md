@@ -48,6 +48,10 @@ Access through CDN or local link will create a  `usernameGenerator` function acc
 On your favorite CLI :
 
 ```
+npx rand-username
+```
+or if package installed globaly
+```
 rand-username
 ```
 

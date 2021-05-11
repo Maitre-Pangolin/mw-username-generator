@@ -1,0 +1,23 @@
+{
+  "name": "mw-username-generator",
+  "version": "1.0.0",
+  "description": "A simple username generator",
+  "main": "namegenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maitre-Pangolin/mw-username-generator.git"
+  },
+  "keywords": [
+    "username",
+    "random"
+  ],
+  "author": "Martin Wasselet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maitre-Pangolin/mw-username-generator/issues"
+  },
+  "homepage": "https://github.com/Maitre-Pangolin/mw-username-generator#readme"
+}

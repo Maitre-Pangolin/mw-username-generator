@@ -1,10 +1,13 @@
 {
   "name": "mw-username-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple username generator",
-  "main": "namegenerator.js",
+  "main": "./namegenerator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "node .\\namegenerator.js",
+    "build": "webpack"
+
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Maitre-Pangolin/mw-username-generator/issues"
   },
-  "homepage": "https://github.com/Maitre-Pangolin/mw-username-generator#readme"
+  "homepage": "https://github.com/Maitre-Pangolin/mw-username-generator#readme",
+  "devDependencies": {
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
 }
